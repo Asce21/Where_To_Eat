@@ -1,0 +1,26 @@
+changes_2021-01-22
+
+RestaurantListActivity
+o changed the class that this class extends to FragmentActivity from Activity
+o Changed the column that cursor points to in line 87 (from 1 to 0)
+o Created an ArrayList (allRestaurants) to hold all of the restaurants in the database
+In onItemSelected, I used allRestaurants to set the values of the layout objects
+o Renamed addressLine1 to addressFull and got rid of the other address layout objects
+o Created a String to hold all values of meals served and used that to set the value of the layout object mealsServed
+
+RestaurantListFragment
+o Added code at the beging of the method onActivityCreated to open and read from the database
+
+RestaurantDetailsFragment
+o Deleted the vestigial address text boxes
+o Re-arranged the boxes in the layout
+
+
+changes_2021-01-22_p2
+
+RestaurantListActivity
+o added a title for the layout object mealsServed 
+--- It is in the string mealsS
+
+
+

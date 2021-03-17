@@ -1,0 +1,21 @@
+changes_2021-01-26
+
+activity_view_restaurant_details
+o Created a map view in the layout
+o Added a ScrollView as the top level element
+
+strings.xml
+o Added a string called address
+
+ViewRestaurantDetailsActivity
+o Removed 1 and line 1 from the IDs in the layout
+o Changed the address to a button from a textview
+o Renamed tv_address to btn_address
+o Moved the button onClickListeners to the bottom
+o renamed address to btnAddress
+o Created the mapview object
+---The mapview doesn't display because you need to pay (~$20/month). See: https://developers.google.com/maps/documentation/javascript/get-api-key
+o Added the onClickListeners for btnAddress
+
+Android Manifest
+o Added the API Key here

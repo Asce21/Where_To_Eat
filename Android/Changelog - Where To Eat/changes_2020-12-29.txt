@@ -1,0 +1,18 @@
+changes_2020-12-29
+
+activity_main
+0 Changed the width of each button to 256dp
+o Added the file extension .db to the database creation statement
+
+RestaurantListActivity
+o Added the file extension .db to the database creation statement
+o Removed redundant second declaration / initialization of the database variable
+
+ChooseRestaurantActivity
+o Added the file extension .db to the database creation statement
+
+AddRestaurantActivity
+o Added the file extension .db to the database creation statement
+
+MainMenuActivity
+o Added the file extension .db to the database creation statement

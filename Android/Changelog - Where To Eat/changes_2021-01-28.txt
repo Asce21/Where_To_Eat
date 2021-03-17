@@ -1,0 +1,13 @@
+changes_2021-01-28
+
+RestaurantListActivity
+o Created a method called getMyData to send the value of restaurantNames to fragments
+o Added code to show / hide the fragments
+o Merged changes from ViewRestaurantDetailsActivity
+o Added a String object called uriString because it helps with using the various buttons 
+
+RestaurantListFragment
+o In the method onActivityCreated, I added some code to get the value of restaurantNames from the hosting activity
+
+MainMenuActivity
+o Redirected btnViewList to open RestaurantListActivity on click of the button

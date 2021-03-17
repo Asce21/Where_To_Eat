@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/details_fragment_all"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RestaurantDetailsFragment">
+
+
+    <ImageView
+        android:id="@+id/iv_restaurant_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="64dp"
+        android:adjustViewBounds="true"
+        android:contentDescription="@string/image"
+        android:maxWidth="200dp"
+        android:maxHeight="200dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/food_general"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/phone"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_restaurant_name" />
+
+    <Button
+        android:id="@+id/btn_url"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/url"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_phone" />
+
+    <TextView
+        android:id="@+id/tv_restaurant_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="64dp"
+        android:text="@string/name"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/iv_restaurant_image" />
+
+    <TextView
+        android:id="@+id/tv_days_open"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="32dp"
+        android:text="@string/days_open"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_url" />
+
+    <TextView
+        android:id="@+id/tv_hours_open"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="32dp"
+        android:text="@string/hours_open"
+        app:layout_constraintStart_toEndOf="@+id/tv_days_open"
+        app:layout_constraintTop_toBottomOf="@+id/btn_url" />
+
+    <Button
+        android:id="@+id/btn_address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="32dp"
+        android:text="@string/address"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_days_open" />
+
+    <TextView
+        android:id="@+id/tv_meals_served"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="32dp"
+        android:text="@string/meals_served"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_address" />
+
+    <com.google.android.gms.maps.MapView
+        android:id="@+id/mv_address"
+        android:layout_width="153dp"
+        android:layout_height="168dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="128dp"
+        android:apiKey="AIzaSyAjbJjBGO--9PvW3SmRQ8Bvwn5CKlGXDzs"
+        android:clickable="true"
+        app:layout_constraintStart_toEndOf="@+id/tv_meals_served"
+        app:layout_constraintTop_toBottomOf="@+id/tv_hours_open" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

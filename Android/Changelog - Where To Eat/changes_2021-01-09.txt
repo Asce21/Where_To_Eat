@@ -1,0 +1,12 @@
+changes_2021-01-09
+
+AddRestaurantActivity
+o Moved quesies to a string called sqlStatement
+o Added ZipCode to the where clause of the SQL query to test if the restaurant to add is already in the database
+o Added city and state checks to the query that checks that fields are not blank
+0 Added an object of the class DatabaseHelper
+
+DatabaseHelper
+o Created this Java class to add rows to the table restaurants
+o Created the method addOneToRestaurants
+o Created the method editRestaurants

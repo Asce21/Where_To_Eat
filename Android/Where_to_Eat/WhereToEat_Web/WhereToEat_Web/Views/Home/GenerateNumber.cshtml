@@ -1,0 +1,28 @@
+﻿
+<h2>@ViewBag.Title</h2>
+<h3>@ViewBag.Message</h3>
+
+<br />
+
+<h4 style="color:blue">
+    <b>Lower Bound:</b>    @ViewBag.lower <br />
+    <b>Upper Bound:</b>  @ViewBag.upper <br />
+    <b>Random Number:</b> @ViewBag.RandomNumber <br /> <br />
+</h4>
+
+<form action="boundsForm" method="post">
+    <table>
+        <tr>
+            <td>Enter A Lower Bound: </td>
+            <td><input type="number" name="lowerBound" style="color:black" /></td>
+        </tr>
+        <tr>
+            <td>Enter A Lower Bound: </td>
+            <td><input type="number" name="upperBound" style="color:black" /></td>
+        </tr>   
+        <tr>
+            <td colspan="2"><input type="submit" value="Submit Bounds" style="color:black" /></td>
+        </tr>
+    </table>
+</form>
+

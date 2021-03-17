@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:isScrollContainer="true"
+    android:padding="15dp"
+    tools:context=".RegisterActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+
+        <EditText
+            android:id="@+id/RA_username"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="82dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginEnd="100dp"
+            android:autofillHints="@string/username"
+            android:ems="10"
+            android:hint="@string/username"
+            android:inputType="textPersonName"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/RA_password"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="82dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="100dp"
+            android:autofillHints="@string/password"
+            android:ems="10"
+            android:hint="@string/password"
+            android:inputType="textPassword"
+            android:isScrollContainer="true"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/RA_username" />
+
+        <EditText
+            android:id="@+id/RA_rPassword"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="82dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="100dp"
+            android:autofillHints="@string/rPassword"
+            android:ems="10"
+            android:hint="@string/rPassword"
+            android:inputType="textPassword"
+            android:isScrollContainer="true"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/RA_password" />
+
+        <EditText
+            android:id="@+id/RA_email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="82dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="100dp"
+            android:autofillHints="@string/email"
+            android:ems="10"
+            android:hint="@string/email"
+            android:inputType="textEmailAddress"
+            android:isScrollContainer="true"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/RA_rPassword" />
+
+        <EditText
+            android:id="@+id/RA_phone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="82dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="100dp"
+            android:autofillHints="@string/phone"
+            android:ems="10"
+            android:hint="@string/phone"
+            android:inputType="phone"
+            android:isScrollContainer="true"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/RA_email" />
+
+        <Button
+            android:id="@+id/RA_register"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="83dp"
+            android:isScrollContainer="true"
+            android:text="@string/register"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/RA_phone" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout  >
+
+
+</ScrollView>

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainMenuActivity">
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="140dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="141dp"
+        android:text="@string/app_name"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_subtitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="130dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="130dp"
+        android:text="@string/app_description"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_title" />
+
+    <ImageView
+        android:id="@+id/iv_food"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="141dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="140dp"
+        android:adjustViewBounds="true"
+        android:contentDescription="@string/image_description"
+        android:maxWidth="200dp"
+        android:maxHeight="200dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/food_general"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_subtitle" />
+
+    <Button
+        android:id="@+id/btn_view_list"
+        android:layout_width="256dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="64dp"
+        android:layout_marginEnd="45dp"
+        android:text="@string/view_list"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/iv_food" />
+
+    <Button
+        android:id="@+id/btn_choose_restaurant"
+        android:layout_width="256dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="45dp"
+        android:text="@string/restaurant_choice"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_view_list" />
+
+    <Button
+        android:id="@+id/btn_add_restauraunt"
+        android:layout_width="256dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="45dp"
+        android:text="@string/addRestaurant"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_choose_restaurant" />
+
+    <Button
+        android:id="@+id/btn_edit_restaurant"
+        android:layout_width="256dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="45dp"
+        android:text="@string/edit_restaurant"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_add_restauraunt" />
+
+    <Button
+        android:id="@+id/btn_random_number"
+        android:layout_width="256dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="45dp"
+        android:text="@string/random_number"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_edit_restaurant" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

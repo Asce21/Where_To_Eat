@@ -1,0 +1,23 @@
+changes_2021-01-04
+
+strings
+o Added strings to edit / delete restaurant 
+
+activity_main_menu
+o Added a button resource to edit restaurant details
+
+MainMenuActivity
+o Consolidated object declarations
+o Added btnEditRestaurant and tied it to the matching layout resource
+
+activity_edit_restaurant
+o Added a title
+o Added a gravity attribute to center the title
+o Added a spinner resource for choosing the restaurant info to appear
+o Changed the top level layout to scrollview
+o Added all the resources to edit
+o Added button resources to edit / delete the restaurant
+
+activity_add_restaurant
+o Added the resources to add a restaurant
+oo Meals Served are hardcoded to 0, 1, 1

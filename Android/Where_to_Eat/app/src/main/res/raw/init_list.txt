@@ -1,0 +1,30 @@
+Aloha Hawaiian BBQ;Every Day;;;;3814 S. Bristol St.;Unit B;Santa Ana;CA;92704;7149571134;www.alohabbq1888.com;0;204;204;204
+Buca di Beppo;Every Day;;;;7979 Center Ave.;;Huntington Beach;CA;92647;7148914666;www.bucadibeppo.com;0;204;204;204
+Buffalo Wild Wings;Every Day;;;;2811 S. Bristol St.;;Santa Ana;CA;92704;7145401737;www.buffalowildwings.com;0;204;204;204
+Burger King;Every Day;;;;2850 Bristol St.;;Santa Ana;CA;92704;7149756126;www.bk.com;1;204;204;204
+Chcick-fil-A;M - Sa;Su;;;3601 S. Bristol St.;;Santa Ana;CA;92704;7145400020;www.chick-fil-a.com;1;204;204;204
+Chipotle;Every Day;;;;3705 S. Bristol St.;;Santa Ana;CA;92704;7147547380;www.chipotle.com;0;204;204;204
+Corner Bakery;Every Day;;;;1621 W. Sunflower Ave.;;Santa Ana;CA;92704;7145461555;www.cornerbakerycafe.com;1;204;204;204
+Don Jacinto's Pollo Grill;Every Day;;;;2413 S. Fairview St.;Unit H;Santa Ana;CA;92704;7144340821;www.donjacintopollogrill.com;0;204;204;204
+Duke's;Every Day;;;;2900 W. Warner Ave.;;Santa Ana;CA;92704;7145575480;no web site;1;204;204;204
+Five Guys;Every Day;;;;3030 Harbor Blvd.;;Costa Mesa;CA;92626;7145490135;www.fiveguys.com;0;204;204;204
+In-N-Out;Every Day;;;;3361 S. Bristol St.;;Santa Ana;CA;92704;8007861000;www.in-n-out.com;0;204;204;204
+Jersey Mike's;Every Day;;;;394 S. Bristol St.;Unit G;Santa Ana;CA;92704;7144381300;www.jerseymikes.com;0;204;204;204
+Jimmy John's;Every Day;;;;3930 S. Bristol St.;Unit 106;Santa Ana;CA;92704;7145404040;www.jimmyjohns.com;0;204;204;204
+L&L Hawaiian BBQ;Every Day;;;;14310 Culver Dr.;Unit A;Irvine;CA;92604;9492629088;www.hawaiianbarbeque.com;0;204;204;204
+Lucille's Smokehouse Bar-B-Que;Every Day;;;;2550 Park Ave.;;Tustin;CA;92782;7142411873;www.lucillesbbq.com;0;204;204;204
+Maggiano's Little Italy;Every Day;;;;3333 Bristol St.;;Santa Ana;CA;92626;7145469550;www.msggianos.com;0;204;204;204
+Maui Hawaiian BBQ;Every Day;;;;17850 Newhope St.;Unit 103;Fountain Valley;CA;92708;7145575018;www.mauihawaiianbbqfv.com;0;204;204;204
+McDonald's;Every Day;;;;2701 W. MacArthur Blvd.;;Santa Ana;CA;92704;7149794862;www.mcdonalds.com;1;204;204;204
+Nate's Korner;Every Day;;;;3960 S. Main St.;Unit D;Santa Ana;CA;92707;7145455772;no website;1;204;204;204
+Olive Garden;Every Day;;;;3755 Alton Pkwy.;;Irvine;CA;92606;9492638692;www.olivegarden.com;0;204;204;204
+Panda Express;Every Day;;;;2130 S. Bristol St.;;Santa Ana;CA;92704;7145404283;www.pandaexpress.com;0;204;204;204
+Panera Bread;Every Day;;;;3941 S. Bristol St.;;Santa Ana;CA;92704;7143381909;www.panerabread.com;1;204;204;204
+Popeye's;Every Day;;;;3825 W. 1st St. St.;;Santa Ana;CA;92703;;www.popeyes.com;0;204;204;204
+Raising Cane's;Every Day;;;;3150 Harbor Blvd.;;Costa Mesa;CA;92626;7145401477;www.raisingcanes.com;0;204;204;204
+Ritter's Steam Kettle Cooking;Every Day;;;;1421 W. MacArthur Blvd.;Unit G;Santa Ana;CA;92704;7148501380;www.ritterskc.com;0;204;204;204
+Round Table Pizza;Every Day;;;;2860 S. Bristol St.;;Santa Ana;CA;92704;7147511600;www.roudtablepizza.com;0;204;204;204
+Tandoori Fresh;Every Day;;;;1500 Adams Ave.;Unit 100A;Costa Mesa;CA;92626;7144444407;www.tandoorifresh.com;0;204;204;204
+The Habit Hamburger Grill;Every Day;;;;1510 Adams Ave.;;Costa Mesa;CA;92626;7142411873;www.habitburger.com;0;204;204;204
+Togo's;Every Day;;;;17585 Harvard Ave.;Unit D;Irvine;CA;92614;9492220206;www.togos.com;0;204;204;204
+ZPizza;Every Day;;;;3941 S. Bristol St.;;Santa Ana;CA;92704;7144371111;zpizza.com;0;204;204;204

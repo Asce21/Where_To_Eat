@@ -1,0 +1,35 @@
+changes_2021-01-23
+-I got frustrated trying to show / hide fragments, so I switched to activities
+
+fragment_restaurant_list
+o Gave the layout an id
+
+fragment_restaurant_details
+o Gave the layout an id 
+
+RestaurantListActivity
+o Added code link to the various fragments
+
+ViewRestaurantListActivity
+o Added
+o Copied the corresponding list fragment code
+o Extended Activity for the theme
+o Implemented setOnItemClickListener
+
+activity_view_restaurant_list
+o Added
+o Created a list view
+
+ViewRestaurantDetailsActivity
+o Added
+o Extended Activity for the theme
+
+activity_view_restaurant_details
+o Added and copied info from the details fragment
+
+MainMenuActivity
+o Redirected btnViewList to open ViewRestaurantListActivity
+
+Restaurant
+o Implemented Parcelable
+o Added a CREATOR

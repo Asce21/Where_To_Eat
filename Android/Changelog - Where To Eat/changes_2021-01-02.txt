@@ -1,0 +1,13 @@
+changes_2021-01-02
+
+activity_main_menu
+o Changed the id of the button resource to add a restaurant
+
+AddRestaurantActivity
+o Condensed the EditText object declarations to a single line
+o Created a string to hold the SQL Statement to add a restaurant
+
+activity_choose_restaurant
+o Changed id of the title resource to include tv_
+o Added the gravity = center attribute to the go to text view resource
+o Changed the width of the go to text view to center the text

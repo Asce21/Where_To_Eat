@@ -1,0 +1,19 @@
+﻿
+
+<div class="jumbotron" style="text-align: center; background-color: silver; color:black;">
+    <h2>@ViewBag.Title</h2>
+    <h3>@ViewBag.Message</h3>
+</div>
+
+ 
+<div style="text-align: center; color:black;" runat="server">
+    <button id="btnViewRestaurants" type="submit" onclick="location.href='@Url.Action("ViewRestaurants", "Home")'" style="background-color: silver; padding: 10px; margin: 10px;">View Restaurants</button>
+    <br />
+    <button id="btnChooseRestaurant" type="submit" OnClick="btnChooseRestaurant_Click" style="background-color: silver; padding: 10px; margin: 10px;">View Restaurants</button>
+    <br />
+    <button id="btnAddRestaurants" type="submit" OnClick="btnAddRestaurants_Click" style="background-color: silver; padding: 10px; margin: 10px;">Add New Restaurant</button>
+    <br />
+    <button id="btnDeleteRestaurants" type="submit" OnClick="btnDeleteRestaurants_Click" style="background-color: silver; padding: 10px; margin: 10px;">Delete Restaurant</button>
+    <br />
+    <button id="btnRandomNumber" type="submit" OnClick="location.href='@Url.Action("GenerateNumber", "Home")'" style="background-color: silver; padding: 10px; margin: 10px;">Generate Number</button>
+</div>

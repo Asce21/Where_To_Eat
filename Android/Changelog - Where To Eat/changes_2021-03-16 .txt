@@ -1,0 +1,9 @@
+changes_2021-03-16 
+Summary: I made the switch from SQLite to SQL Servert hosted on AWS. This update was mainly about migrating data from Where_To_Eat to WTE
+
+activity_add_restaurant
+o Added 3 spinner layout objects to choose if the restaurant serves breakfast, lunch, dinner
+
+AddRestaurantActivity
+o Added objects to match with the spinners
+o Added listners for the events with the spinners / button
