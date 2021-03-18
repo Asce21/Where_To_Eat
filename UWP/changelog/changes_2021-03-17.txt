@@ -1,0 +1,7 @@
+changes_2021-03-17
+
+App.xaml
+o Made dark theme the default theme 
+
+o=MainPage.xaml
+o Created the UI elements
