@@ -14,14 +14,19 @@ namespace Where_To_Eat
 	/// </summary>
 	ref class App sealed
 	{
-	protected:
-		virtual void OnLaunched(Windows::ApplicationModel::Activation::LaunchActivatedEventArgs^ e) override;
+		protected:
+			virtual void OnLaunched(Windows::ApplicationModel::Activation::LaunchActivatedEventArgs^ e) override;
+			
 
-	internal:
-		App();
+		internal:
+			App();
+		public:
 
-	private:
-		void OnSuspending(Platform::Object^ sender, Windows::ApplicationModel::SuspendingEventArgs^ e);
-		void OnNavigationFailed(Platform::Object ^sender, Windows::UI::Xaml::Navigation::NavigationFailedEventArgs ^e);
+		private:
+			//Global Member Variables
+			static int lowerBoundGlobal, upperBoundGlobal, rangeGlobal;
+
+			void OnSuspending(Platform::Object^ sender, Windows::ApplicationModel::SuspendingEventArgs^ e);
+			void OnNavigationFailed(Platform::Object ^sender, Windows::UI::Xaml::Navigation::NavigationFailedEventArgs ^e);
 	};
 }

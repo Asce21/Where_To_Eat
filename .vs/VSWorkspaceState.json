@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\UWP"
+    "\\UWP",
+    "\\UWP\\App",
+    "\\UWP\\App\\Where_To_Eat"
   ],
   "SelectedNode": "\\UWP\\App",
   "PreviewInSolutionExplorer": false

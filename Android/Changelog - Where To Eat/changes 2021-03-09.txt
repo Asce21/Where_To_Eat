@@ -1,0 +1,28 @@
+changes 2021-03-09
+
+This update is mainly about switching the database used from SQLite to SQL Server
+
+
+
+AndroidManifest
+o Added the following permissions to the Android Manifest
+	<uses-permission android:name="android.permission.INTERNET"></uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"></uses-permission>
+	
+libs folder
+o Added the mssql jar files to this folder
+
+File->Project Structure->Dependencies
+o Added dependencies for jtds in library dependency (1) and for the jar file (2)
+
+Themes.xml
+o Changed to a dark theme
+
+
+MainActivity
+o Changed Edit Restaurant to Delete Restaurant
+
+
+
+
+

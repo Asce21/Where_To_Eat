@@ -12,10 +12,10 @@
         <TextBlock Name="AppTitle" Text="Where To Eat" FontSize="40" HorizontalAlignment="Center"/>
         <TextBlock Name="AppSubtitle" Text="An App For The Indecisive" FontSize="20" HorizontalAlignment="Center" Margin="0,100,0,0"/>
         <Image Name="FoodGeneral" Width="200" Height="200" Margin="0,0,0,100" Source="Assets/food1.jpg" />
-        <HyperlinkButton Name="ViewRestaurants" Content="1. View Restaurants" FontSize="20" HorizontalAlignment="Center" Margin="0,0,0,-100" VerticalAlignment="Stretch" Width="360" />
-        <HyperlinkButton Name="ChooseRestaurants" Content="2. Choose A Restaurants" FontSize="20" HorizontalAlignment="Center" Margin="0,0,0,-200" VerticalAlignment="Stretch" />
-        <HyperlinkButton Name="AddRestaurants" Content="3. Add A Restaurants" FontSize="20" HorizontalAlignment="Center" Margin="0,0,0,-300" VerticalAlignment="Stretch" Width="340" />
-        <HyperlinkButton Name="DeleteRestaurants" Content="4. Delete A  Restaurants" FontSize="20" HorizontalAlignment="Center" Margin="0,0,0,-400" VerticalAlignment="Stretch" />
-        <HyperlinkButton Name="GenerateRandomNumber" Content="5. Generate A Random Number" FontSize="20" HorizontalAlignment="Center" Margin="0,0,0,-500" VerticalAlignment="Stretch" />
+        <HyperlinkButton Name="btnViewRestaurants" Content="1. View Restaurants" FontSize="20" HorizontalAlignment="Center" Margin="0,0,0,-100" VerticalAlignment="Stretch" Width="360" />
+        <HyperlinkButton Name="btnChooseRestaurants" Content="2. Choose A Restaurants" FontSize="20" HorizontalAlignment="Center" Margin="0,0,0,-200" VerticalAlignment="Stretch" />
+        <HyperlinkButton Name="btnAddRestaurants" Content="3. Add A Restaurants" FontSize="20" HorizontalAlignment="Center" Margin="0,0,0,-300" VerticalAlignment="Stretch" Width="340" />
+        <HyperlinkButton Name="btnDeleteRestaurants" Content="4. Delete A  Restaurants" FontSize="20" HorizontalAlignment="Center" Margin="0,0,0,-400" VerticalAlignment="Stretch" />
+        <HyperlinkButton Name="btnGenerateRandomNumber" Click="btnGenerateRandomNumber_Click" Content="Generate A Random Number" FontSize="20" HorizontalAlignment="Center" Margin="0,0,0,-500" VerticalAlignment="Stretch" />
     </Grid>
 </Page>

@@ -1,0 +1,15 @@
+changes_2021-03-20 - Changes to UWP App
+
+Pages Added 
+o RandomNumberPage
+
+MainPage
+o Added the click event to navitgate to the random number
+
+RandomNumberPage
+o Created the UI elements of the .xaml page
+o Created the function that will get the values of the bounds, calculate the range, and print a random number within bounds in a pop up
+o Assigned the function to the button RandomNumberBoundsSubmit in the main xaml page
+
+
+
