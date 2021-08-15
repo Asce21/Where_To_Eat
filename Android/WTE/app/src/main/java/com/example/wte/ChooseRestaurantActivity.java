@@ -38,6 +38,7 @@ public class ChooseRestaurantActivity extends AppCompatActivity {
 
         //Get the database info
         try {
+            connectionHelper = new ConnectionHelper();
             connection = connectionHelper.createConnection();
             sqlStatement = "SELECT * FROM Where_To_Eat.dbo.RestaurantLists";
             statement = connection.createStatement();
@@ -52,6 +53,7 @@ public class ChooseRestaurantActivity extends AppCompatActivity {
 
             //Get the info for the restaurant to display
             row = 0;
+            results = statement.executeQuery(sqlStatement);
             while (row < randomNumber && results.next())  {
                 row++;
                 if (row == randomNumber)    {

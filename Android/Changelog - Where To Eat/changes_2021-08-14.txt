@@ -1,0 +1,6 @@
+changes_2021-08-14
+
+
+ChooseRestaurantActivity 
+o Added code to move the cursor of results back to the start(at the beginning of the try block)
+
