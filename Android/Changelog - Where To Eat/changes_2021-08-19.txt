@@ -1,0 +1,4 @@
+changes_2021-08-19
+
+res
+o Changed the icon for the app to a crossed fork and knife
