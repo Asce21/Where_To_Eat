@@ -1,0 +1,55 @@
+<resources>
+    <!-- App General -->
+    <string name="app_name">Where To Eat</string>
+    <string name="app_description">A tool for the indecicive</string>
+    <string name="image_description">General Image of Food</string>
+
+    <!-- User Info -->
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="rPassword">Re-type Password</string>
+    <string name="email">Email Address</string>
+    <string name="phone">Phone Number</string>
+
+    <!-- Buttons -->
+    <string name="register">Register</string>
+    <string name="logIN">Log In</string>
+    <string name="submit">Submit</string>
+
+    <!-- App Navigation -->
+    <string name="view_list">View A List Of Restaurants</string>
+    <string name="addRestaurant">Add A Restaurant</string>
+    <string name="choose_restaurant">Choose A Restaurant</string>
+    <string name="delete_restaurant">delete A Restaurant</string>
+
+    <!-- Activity Strings -->
+    <string name="random_number">Generated Number</string>
+    <string name="goTo">Go To</string>
+    <string name="selectRange">Select A Range</string>
+    <string name="lowerBound">Lower Bound</string>
+    <string name="upperBound">Upper Bound</string>
+    <string name="addRestaraunt">Add A Restaurant</string>
+    <string name="restaurant_choice">Restaurant Choice</string>
+    <string name="serves_breakfast_question">Serves Breakfast?</string>
+    <string name="serves_lunch_question">Serves Lunch?</string>
+    <string name="serves_dinner_question">Serves Dinner?</string>
+
+    <!-- Restaurant Details -->
+    <string name="name">Name</string>
+    <string name="days_open">Days Open</string>
+    <string name="hours_open">Operating Hours</string>
+    <string name="address">Address</string>
+    <string name="address1">Address Line 1</string>
+    <string name="address2">Address Line 2</string>
+    <string name="city">City</string>
+    <string name="state">State</string>
+    <string name="zipcode">Postal Code</string>
+    <string name="url">URL</string>
+    <string name="meals_served">Meals Served</string>
+    <string name="breakfast">Breakfast</string>
+    <string name="lunch">Lunch</string>
+    <string name="dinner">Dinner</string>
+    <string name="location">Multiple Locations</string>
+    <string name="image">Image</string>
+    <string name="randomNumber">Random Number</string>
+</resources>

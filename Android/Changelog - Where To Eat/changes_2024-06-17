@@ -1,0 +1,9 @@
+changes_2024-06-17
+o I created a new project (Where To Eatv3) to avoid any possiblt conflict from newer versions of Android / Android Studio
+
+General
+o activity_main created
+o MainActivity created
+
+activity_main created
+o Ported buttons and tex from project (wte)

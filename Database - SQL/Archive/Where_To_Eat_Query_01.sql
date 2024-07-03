@@ -1,0 +1,2 @@
+INSERT INTO where_to_eat.restaurants (Restaurant_Name, Days_Open, Hours_Open, Address_Line_1, Address_Line_2, City, State, Zipcode, Phone_Number, Website, Serves_Breakfast, Serves_Lunch, " +
+                            "Serves_Dinner) VALUES (
