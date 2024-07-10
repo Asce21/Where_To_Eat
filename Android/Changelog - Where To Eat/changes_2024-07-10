@@ -1,0 +1,13 @@
+changes_2024-07-10
+In Project: WheretoEatv3 
+
+General
+o ViewFilterOptionsActivity created
+o activity_view_filter_options created
+
+MainActivity
+o Added Class Vatiable Declarations for the intent and the buttons
+o Added Class Vatiable Initializations for the intent and the buttons
+o Added the onclick listener for btnViewList to redirect to ViewFilterOptionsActivity (or activity_view_filter_options)
+
+

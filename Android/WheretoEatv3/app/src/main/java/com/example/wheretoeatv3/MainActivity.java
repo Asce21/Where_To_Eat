@@ -1,6 +1,9 @@
 package com.example.wheretoeatv3;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -9,6 +12,9 @@ import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
 public class MainActivity extends AppCompatActivity {
+// Class Vatiable Declarations are okay, but only initialize when ABSOLUTELY necessary!
+    Intent intent;
+    Button btnViewList, btnChooseRestaurant, btnAddRestaurant, btnRandomNumber, btnEditRestaurant;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -20,5 +26,19 @@ public class MainActivity extends AppCompatActivity {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });// End of ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets)
+
+        //Variable Initializations
+        btnViewList = (Button) findViewById(R.id.btn_view_list);
+        btnChooseRestaurant = (Button) findViewById(R.id.btn_choose_restaurant);
+        btnAddRestaurant = (Button) findViewById(R.id.btn_add_restauraunt);
+        btnEditRestaurant = (Button) findViewById(R.id.btn_edit_restaurant);
+        btnRandomNumber = (Button) findViewById(R.id.btn_random_number);
+
+        btnViewList.setOnClickListener(new View.OnClickListener() {
+            //@Override
+            public void onClick(View v) {
+                intent = new Intent(MainActivity.this, ViewFilterOptionsActivity.class);
+                startActivity(intent);
+            }//End of method onClick
     }// End of protected void onCreate(Bundle savedInstanceState)
 }// End of public class MainActivity extends AppCompatActivity
