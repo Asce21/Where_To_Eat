@@ -21,6 +21,8 @@
     <string name="addRestaurant">Add A Restaurant</string>
     <string name="choose_restaurant">Choose A Restaurant</string>
     <string name="delete_restaurant">delete A Restaurant</string>
+    <string name="filter_database_by_cuisine_type">Filter By Cuisine Type</string>
+    <string name="view_list_of_all">View A List Of All Restaurants</string>
 
     <!-- Activity Strings -->
     <string name="random_number">Generated Number</string>

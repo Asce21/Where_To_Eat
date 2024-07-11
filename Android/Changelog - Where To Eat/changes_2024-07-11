@@ -1,0 +1,15 @@
+
+changes_2024-07-11
+In Project: WheretoEatv3 
+
+strings.xml
+o Added the string named filter_database_by_cuisine_type
+o Added the string named view_list_of_all
+
+
+activity_view_filter_options
+o Added button with id = btn_filter
+o Added margins of 45dp to the left and right of btn_filter
+o Added button with id = btn_view_all
+o dded margins of 45dp to the left and right of btn_view_all
+o Added layout_marginTop of 64dp to btn_view_all that connects to the bottom of btn_filter
